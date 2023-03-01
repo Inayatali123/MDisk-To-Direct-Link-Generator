@@ -7,11 +7,11 @@ from pyrogram import Client, filters
 from helper_funcs.helpers import humanbytes, convert
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6082198439:AAGeeWHliSWP7KeKclIl_iTzHx6wvYePnHI")
 
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "28150346"))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "426f0d0a1da02dea8fb71cb0bd3ab7e1")
 
 
 app = Client("mdisk", bot_token=TG_BOT_TOKEN, api_hash=API_HASH, api_id=APP_ID)
